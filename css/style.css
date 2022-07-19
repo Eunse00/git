@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.scss.map */
+/* header                                    ---------------------------- */
+header {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+header .inner {
+  width: 1180px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative; /* 자식 absolute 요소의 기준점 설정*/
+  background: white;
+}
+header .inner #gnb {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+  color: white;
+}
+header .inner #gnb li {
+  float: left;
+}
+header .inner #gnb li a {
+  display: block;
+  font: bold 20px/1.1 "맑은 고딕";
+  color: black;
+  padding: 20px 40px;
+  transition: all 0.3s;
+}
+header .inner #gnb li a:hover {
+  background: rgba(153, 153, 153, 0.6);
+  color: #fff;
+}
+header .inner #util {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: white;
+}
+header .inner #util li {
+  float: left;
+}
+header .inner #util li a {
+  display: block;
+  font: 16px/1 "맑은 고딕";
+  color: #999;
+  padding: 0px 10px;
+}
+
+/* visual */
+figure {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+figure .inner {
+  width: 1180px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: blue;
+}
+figure .inner h1 {
+  font: normal 120px/1 "arial";
+  color: #fff;
+}
+
+/*  =================== 스타일링 섹션 ======*/
+#styling {
+  width: 100%;
+  height: 130vh;
+  background: white;
+  padding: 20px 0;
+}
+#styling .inner {
+  width: 1180px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+#styling .inner h2 {
+  font: normal 30px/1 "맑은 고딕";
+  padding: 20px 0;
+}
+#styling .inner .swiper {
+  width: 100%;
+  height: 100%;
+}
+#styling .inner .swiper-slide {
+  width: 80%;
+  height: 100%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#styling .inner .swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+#styling .inner h1 {
+  font: bold 60px/1 "맑은 고딕";
+  margin: 30px 0;
+  text-align: center;
+}
+#styling .inner p {
+  font: bold 18px/1 "맑은 고딕";
+  text-align: center;
+  margin-bottom: 30px;
+}
+#styling .inner a {
+  color: black;
+  border: 3px solid rgba(153, 153, 153, 0.6666666667);
+  border-radius: 20%;
+}
+
+#airmax {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  padding: 20px 0;
+}
+#airmax .inner {
+  width: 1808px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  object-fit: cover;
+  text-align: center;
+}
+#airmax .inner h1 {
+  font: bold 60px/1 "맑은 고딕";
+  margin: 30px 0;
+}
+#airmax .inner p {
+  font: bold 18px/1 "맑은 고딕";
+}
+
+#shoes {
+  width: 100%;
+  height: 100vh;
+  background: pink;
+}
+#shoes .inner {
+  width: 1180px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+#shoes .inner h2 {
+  font: normal 30px/1 "맑은 고딕";
+}
+#shoes .inner h1 {
+  font: bold 60px/1 "맑은 고딕";
+}
+#shoes .inner p {
+  font: bold 18px/1 "맑은 고딕";
+}
+
+#footer {
+  width: 100%;
+  height: 50vh;
+  background: black;
+}
+#footer .inner {
+  width: 1180px;
+  padding-top: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+#footer .inner ul {
+  float: left;
+  margin-left: 50px;
+}
+#footer .inner ul li {
+  margin-bottom: 20px;
+}
+#footer .inner ul .bold {
+  font: bold 20px/1 "맑은 고딕";
+}
+#footer .inner .left {
+  font: bold 20px/1 "맑은 고딕";
+}
+#footer .inner .icon {
+  float: right;
+}
+#footer .inner address {
+  width: 100%;
+  font: 14px/1.1 "arial";
+  color: #999;
+  float: left;
+  margin-left: 860px;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
